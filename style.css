@@ -4,9 +4,10 @@ body {
     font-size: 30px;
 }
 
-body::-webkit-scrollbar { 
-    display: none; 
-}
+/* body::-webkit-scrollbar { 
+    display: none;
+     
+} */
 
 /* Body Header */
 
@@ -199,7 +200,7 @@ section:nth-child(2n + 1) {
 /*Skills Section*/
 
 .skills-display {
-    width: 75%;
+    width: 60%;
     padding: 10px;
     margin-bottom: 30px;
     display: flex;
@@ -314,7 +315,7 @@ section:nth-child(2n + 1) {
 }
 
 .experience-designation {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .experience-company-name {
@@ -548,6 +549,15 @@ button:focus {
 
 }
 
+.text-highlight1{
+    font-weight: 700;
+
+}
+
+.text-highlight2{
+    font-weight: 600;
+
+}
 
 /* setting background-color */
 
